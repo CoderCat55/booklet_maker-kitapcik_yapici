@@ -1,16 +1,27 @@
-# booklet_maker-kitapcik_yapici
+# Booklet Maker - Kitapçık Yapıcı
 
-Amaç: A4 boyutundaki pdfleri basılabilir kitaplar haline getiriyor. Yani aslında A4 pdfleri A5 boyutunda kitap yapmanızı sağlıyor
+### Amaç
+A4 boyutundaki PDF'leri **basılabilir kitapçık** haline getirir. Aslında **A4 PDF'leri A5 boyutunda kitap** olarak kullanmanızı sağlar.
 
-pdf_hesaplama_4 algoritmayı içerir. (meraklısı için)
+---
 
-#Asıl program 
-pdf_hesaplama_5.py (bilgisayarda offline çalıştırmak için) 
-PyPDF2 kütüphanesini indirmelisiniz. 
-pip install PyPDF2
+### Algoritma Bilgisi
+- `pdf_hesaplama_4` algoritmasını içerir. *(Meraklıları için)*
 
-Not: kitap haline gelmesi için pdf kaydedildikten sonra  kağıt başına 2 sayfa olacak ve arkalı önlü basılacak şekilde yazıcıya gönderilmelidir.
+---
 
-Colab linki
-Bilgisayarda online çalıştırmak için
-https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing
+### Asıl Program
+- **`pdf_hesaplama_5.py`** *(Bilgisayarda offline çalıştırmak için)*
+  - **Gereksinim:** `PyPDF2` kütüphanesi
+  - **Kurulum:** `pip install PyPDF2`
+
+- **Not:**
+  Kitap haline gelmesi için PDF kaydedildikten sonra:
+  - Kağıt başına **2 sayfa** gelecek şekilde,
+  - **Arkalı önlü** basılacak şekilde yazıcıya gönderilmelidir.
+
+---
+
+### Colab Linki
+Bilgisayarda **online çalıştırmak** için:
+🔗 [https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing](https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing)
