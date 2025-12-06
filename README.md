@@ -17,7 +17,7 @@ A4 boyutundaki PDF'leri **basılabilir kitapçık** haline getirir. Aslında **A
 
 - **Not:**
   Kitap haline gelmesi için PDF kaydedildikten sonra:
-  - Kağıt başına **2 sayfa** gelecek şekilde,
+  - Kağıt başına **2 sayfa** gelecek şekilde tekrar kaydedin.
   - **Arkalı önlü** basılacak şekilde yazıcıya gönderilmelidir.
 
 ---
@@ -25,3 +25,5 @@ A4 boyutundaki PDF'leri **basılabilir kitapçık** haline getirir. Aslında **A
 ### Colab Linki
 Bilgisayarda **online çalıştırmak** için:
 🔗 [https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing](https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing)
+  - Kağıt başına **2 sayfa** gelecek şekilde tekrar kaydedin.
+  - **Arkalı önlü** basılacak şekilde yazıcıya gönderilmelidir.
