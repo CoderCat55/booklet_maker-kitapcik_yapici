@@ -7,29 +7,20 @@ A4 boyutundaki PDF'leri **basılabilir kitapçık** haline getirir. Aslında **A
 
 ### Algoritma Bilgisi
 - `pdf_hesaplama_4` algoritmasını içerir. *(Meraklıları için)*
-
----
-
 ### Asıl Program
 - **`pdf_hesaplama_5.py`** *(Bilgisayarda offline çalıştırmak için)*
   - **Gereksinim:** `PyPDF2` kütüphanesi
   - **Kurulum:** `pip install PyPDF2`
-
-- **Not:**
-  Kitap haline gelmesi için PDF kaydedildikten sonra:
-  - Kağıt başına **2 sayfa** gelecek şekilde tekrar kaydedin.
-  - **Arkalı önlü** basılacak şekilde yazıcıya gönderilmelidir.
-
----
+----
 
 ### Colab Linki
 Bilgisayarda **online çalıştırmak** için:
 🔗 [https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing](https://colab.research.google.com/drive/1cq09e424u-kZSS9QSBevfHxP1VbPi3I2?usp=sharing)
-  - Kağıt başına **2 sayfa** gelecek şekilde tekrar kaydedin.
   - **Arkalı önlü** uzun kenardan çeivrmeli basılacak şekilde yazıcıya gönderilmelidir.
+  - yazıcıdan çıktı aldıktan sonra elinizdeki kağıt destesini yazıcıdan çıktığı haliyle ortadan 2 ye katlayın. elinizde a5 boyutunda bir kitapçık olacak
+  - orta sayfayı birbirine bantlayın
 
   - Slyatlar için https://colab.research.google.com/drive/1hu0KW_lKz9n2OnSdV5c6OVvzXycRqb2g?usp=sharing
-  - ***
-https://colab.research.google.com/drive/1cKp97JloS6l3BhaoilakgAEjCCL_xbRO?usp=drive_link  180 derece döndürülmeyen hali.
-NOT: tek sayılı sayfa ekleyince sanki sorun çıkıyor ona bakmam gerek.
-Not: 180 derece döndürmeliyi kullanmka için yazıcının uzun kenardan çevirmeli ayaarını aktif etmek gerekiyor sanırım.
+  - çıkan pdfyi arkalı önlü,uzun kenardan çevirmeli çıktı alın
+  - kağıdın ortasından kısa kenara paralel olacak şekilde kesin
+  - kesilen parçalardan altta olanı alın ters çevirin ve kesilen üst parçanın arkasına ekleyin.
