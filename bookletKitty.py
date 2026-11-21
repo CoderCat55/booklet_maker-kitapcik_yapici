@@ -124,7 +124,7 @@ def build_booklet(input_path, output_path, mirrored=False, cover=False):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("PDF Imposition Tool")
+        self.title("Booklet Kitty")
         self.resizable(True, False)
         self.files = []
         self.mode = tk.StringVar(value="booklet")
